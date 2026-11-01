@@ -2,8 +2,8 @@
 
 본식 청첩장과 별도로 관리하는 피로연 전용 모바일 초대장입니다.
 
-- 공개 주소: https://jravvit.github.io/wedding-reception/
-- 저장소: https://github.com/Jravvit/wedding-reception
+- 공개 주소: https://helloworld8001.github.io/wedding-reception/
+- 저장소: https://github.com/helloworld8001/wedding-reception
 - QR: `dist/assets/reception-qr.png`, `dist/assets/reception-qr.svg`
 - 업데이트: 수정 커밋 후 `git push origin main`
 
@@ -36,7 +36,7 @@ http://localhost:4174 에서 확인합니다. 패키지 설치는 필요 없습�
 GitHub Pages의 Source를 GitHub Actions로 설정합니다. `main`에 사이트 변경을 push하면 `.github/workflows/deploy-pages.yml`이 정적 파일을 배포합니다. 공유 미리보기 주소와 사진 URL은 실제 Pages 주소로 자동 반영합니다.
 
 ```sh
-npm run build:pages -- https://jravvit.github.io/wedding-reception/
+npm run build:pages -- https://helloworld8001.github.io/wedding-reception/
 ```
 
 산출물은 `.artifacts/github-pages/`에 생성됩니다. QR 코드는 위 공개 주소로 연결됩니다. 주소가 바뀌면 QR도 다시 만들어야 합니다.
